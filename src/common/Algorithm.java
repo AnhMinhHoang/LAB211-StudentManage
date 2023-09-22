@@ -158,7 +158,7 @@ public class Algorithm {
             return;
         }
         sortDisplayByName(store);
-        int choice = input.getChoice(store);
+        int choice = input.getChoiceTo(store);
         int l = location.get(choice);
         for (int i = 0; i < store.size(); i++) {
             if (store.get(i).equals(data.get(l))) {
@@ -219,7 +219,7 @@ public class Algorithm {
                             data.get(0).setCourseName(s);
                             System.out.println("UPDATED!");
                         }
-                        int select = input.getChoice(store);
+                        int select = input.getChoiceTo(store);
                         int l = location.get(select);
                         String s = input.inputStringMatch("Enter Course(1-Java|2-.Net|3-C/C++) or Enter 1 2 3 for quick add", "Java|\\.Net|C\\/C\\+\\+|[123]");
                         switch (s) {

@@ -7,7 +7,6 @@ package controller;
 import common.Algorithm;
 import common.Input;
 import java.util.ArrayList;
-import java.util.Collections;
 import model.StudentData;
 import view.Menu;
 

@@ -34,7 +34,7 @@ public class Input {
         return s;
     }
 
-    public int getChoice(ArrayList<StudentData> data) {
+    public int getChoiceTo(ArrayList<StudentData> data) {
         Scanner sc = new Scanner(System.in);
         int choice;
         do {
